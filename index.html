@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collee Project</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital@1&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(39, 17, 17);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    
+    
+    }
+    header{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(122, 35, 35);
+        box-shadow: 0 0 15px rgb(58, 20, 20);
+    
+    }
+    
+    .logp-di{
+        margin-left: 30px;
+        margin-top: 20px;
+        background: transparent;
+    }
+    .navi{
+        margin-right: 30px;
+        margin-top: 25px;
+    background: transparent;
+    
+    }
+    
+    header nav{
+        background: transparent;
+        justify-content: center;
+    }
+    
+    nav a{
+        text-align: center;
+        justify-content: space-between;
+        margin: 30px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        background: transparent;
+        font-size: 12px;
+    
+    }
+    nav a:hover{
+        text-align: center;
+        justify-content: space-between;
+        margin: 30px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(238, 23, 23);
+    
+    }
+    
+    .text-1{
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        background: transparent;
+    }
+    .text-2{
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        background: transparent;
+    }
+    
+    .home{
+        background-color: rgb(255, 0, 0);
+        padding: 9px 20px;
+        border-radius: 25px;
+        transition: .3s;
+    }
+    .home:hover{
+        background-color: rgb(243, 52, 52);
+        padding: 8px 20px;
+        border-radius: 25px;
+        color: white;
+    }
+    .sec-1{
+        height: 700px;
+        width: 100%;
+        margin-bottom: 230px;
+    }
+    div .heading-1{
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    
+        margin-top: 15px;
+        text-align: center;
+    }
+    div .heading-1 a{
+        color: rgb(253, 0, 0);
+        text-decoration: dashed;
+    }
+    div .heading-1 a:hover{
+        color:rgb(240, 69, 69) ;
+        text-decoration: dashed;
+    }
+    .p1{
+    
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+      
+    }
+    
+    div .b1{
+        background-color: rgb(247, 12, 12) ;
+        padding: 8px 15px;
+        border-radius: 25px;
+        border: none;
+        font-family: 'Poppins';
+        transition: .4s;
+        text-decoration: none;
+        margin-top: 40px;
+        box-shadow: 0 0 15px rgb(58, 20, 20);
+        margin-bottom: 10px;
+    
+        
+    }
+    div .b1:hover{
+        align-items: center;
+        background-color: rgb(197, 56, 56) ;
+        padding: 8px 15px;
+        margin-top: 40px;
+        border-radius: 25px;
+    }
+    
+    
+    .sec-2{
+        height: 750px;
+        width: 100%;
+    }
+    
+    .s1{
+        color: rgb(253, 0, 0);
+        font-weight: bolder;
+        font-size: 30px;
+        text-decoration: underline;
+        transition: .4s;
+    }
+    .s1:hover{
+        text-decoration: none;
+        text-shadow: 0 0 15px rgb(210, 74, 228);
+        color: rgb(235, 57, 57);
+    
+    }
+    
+    .sec-2 h4 a{
+        text-decoration: none;
+    }
+    
+    
+    
+    .sec-2 h4{
+        align-items: center;
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+    
+    }
+    .sub-sec-1{
+        border: 5px solid rgb(253, 0, 0);
+        box-shadow: 0 0 15px rgb(58, 20, 20);
+        margin: auto;
+        width: 70%;
+        border-radius: 10px;
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .sub-sec-1 ul{
+       align-items: center;
+       list-style-type:none;
+       margin: 16px;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-bottom: 10px;
+    }
+    .sub-sec-1 ul li{
+       align-items: center;
+       text-align: center;
+       /* padding: 15px; */
+    
+    }
+    .h1s{
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    
+    }
+    
+    
+    
+    .sub-sec-2{
+        border: 5px solid rgb(255, 0, 0);
+        box-shadow: 0 0 15px rgb(58, 20, 20);
+        margin: auto;
+        width: 70%;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    
+    .l1{
+        font-size: 15px;
+        color: rgb(253, 0, 0);
+        font-weight: bolder;
+        text-decoration: none;
+        transition: .4s;
+    }
+    .l1:hover{
+        text-shadow: 0 0 15px rgb(226, 39, 243);
+        font-size: 16px;
+    }
+    
+    
+    
+    .sec-3{
+        height: 600px;
+        width: 100%;
+    }
+    .sec-3 h4 a{
+        text-decoration: none;
+    }
+    
+    
+    
+    .sec-3 h4{
+        align-items: center;
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+    
+    }
+    .sub-sec-3{
+        border: 5px solid rgb(253, 0, 0);
+        box-shadow: 0 0 15px rgb(58, 20, 20);
+        margin: auto;
+        width: max-content;
+        border-radius: 10px;
+        margin-top: 40px;
+        padding: 3px;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 7%;
+        margin-top: 30px;
+      }
+    
+    
+    .sec-4{
+        height: 550px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .sub-sec-4{
+        border: 5px solid rgb(245, 6, 6);
+        box-shadow: 0 0 15px rgb(58, 20, 20);
+        margin: auto;
+        width: max-content;
+        border-radius: 10px;
+        margin-top: 40px;
+        padding: 0px;
+    }
+    .sec-4 h4{
+        align-items: center;
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+    
+    }
+    .sec-5 h3{
+        align-items: center;
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        font-family: 'cursive', cursive;
+        margin-bottom: 40px;
+    }
+
+</style>
+
+
+
+</head>
+<body>
+    <a name="top"></a>
+    <header>
+        <div class="logp-di">
+            <h5 class="text-1">Bachelor Of</h5>
+            <h5 class="text-2">Computer Application</h5>
+        </div>
+        <div class="navi">
+            <nav>
+                <a class="home" href="">Home</a>
+                <a href="https://www.wikipedia.org/">LAN</a>
+                <a href="https://www.wikipedia.org/">Wi-Fi</a>
+            </nav>
+        </div>
+    </header>
+    <div class="sec-1">
+        <a class="img-link" href="https://www.iul.ac.in/"><img src="https://upload.wikimedia.org/wikipedia/en/8/86/Integral_University%2C_Lucknow_logo.png" alt="" width="100px" class="center">
+        </a>
+        <h4 class="heading-1" >-Program Offered By- <br> <a href="http://iul.ac.in/CA"> Department of Computer Application </a></h4><br>
+
+        <div class="sub-sec-2">
+        <p  class="p1" style="font-size:15px;  margin: 40px; letter-spacing: 1px; line-height: 28px;">
+            Focusing on expertise in communication systems and information technology and their <br> effective application in business issues, <br> <br>
+
+            This undergraduate program covers various aspects of <em> ' computer applications ' </em> and integrates <br> the latest industry developments in the course curriculum. <br> <br>
+            The graduates of the program have a solid foundation in industrial computing or important <br> aspects of computer science and analyze and optimize the use of latest <br> technologies in the business environment. <br> <br>
+            They are well-equipped to work as professionals in the 
+            fields of software development, design <br> and implementation. <br> <br>
+            <audio controls>
+                <source src="https://upload.wikimedia.org/wikipedia/commons/5/50/Jana_gana_mana_vocal.ogg" type="audio/ogg">
+            </audio> <br>
+
+            <button class="b1" onclick="window.location.href = 'https://iul.ac.in/ca/'">Start Exploring</button>
+        </p>
+    </div>
+    </div>
+    <!-- ---------------Sectin 1 End -->
+    <!-- <hr> -->
+    <!-- ---------------Sectin 2 Start -->
+    <div class="sec-2">
+        <h4>-Eligibility & More- <br> <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx"> <span class="s1">Information</span></a></h4>
+        <div class="sub-sec-1">
+            
+            
+            <ul class="ul-icons">
+                <li class="h1s">-Eligibilty-</li>
+            </ul>
+            <ul>
+                <li style="font-size:15px; text-align:justify;">A candidate must have passed 10+2 in any discipline with minimum 45% marks in aggregate from a recognized Board/ University.</li>
+            </ul>
+            <ul class="ul-icons">
+                <li class="h1s">-Admission Procedure-</li>
+            </ul>
+            <ul>
+                <li style="font-size:15px; text-align:justify;">Admission in all the courses will be based on merit.A course wise merit list will be called for counselling,which eventually would lead to the admission.</li>
+            </ul>
+            <ul>
+                <li class="h1s" >-Duration- </li>
+            </ul>
+            <ul>
+                <li> <strong> Bachelor of Computer Applications</strong> is a 3-year (6 semesters) programme for undergraduates seeking career in the IT industry. The degree is awarded for completing the programme in the study fields of software testing, web design, software development and programming, computer networking and computer systems</li>
+            </ul>
+            <ul>
+                <li class="h1s"> Fee Structure </li>
+            </ul>
+            <ul>
+                <li>To know about the fee structure, <a class="l1" href="http://iul.ac.in/admissioninfo/FeeInd.aspx"">Click Here</a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ------------------------SECTION 3 -->
+    <div class="sec-3">
+        <h4>-The Media- <br> <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx"> <span class="s1">Section</span></a></h4>
+        <div class="sub-sec-3">
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/vUZ5YfLqJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+    <!-- -------------------SECTION 4 -->
+    <div class="sec-4">
+        <h4>-Time Table- <br> <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx"> <span class="s1">Section</span></a></h4>
+        <div class="sub-sec-4">
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td align="center" height="50"
+                width="100"><br>
+                <b>Day/Period</b></br>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>I<br>9:00-09:50</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>II<br>09:50-10:40</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>III<br>10:40-11:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>11:30-12:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>IV<br>12:20-1:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>V<br>1:30-2:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VI<br>2:20-3:10</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VII<br>3:10-4:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center"
+                height="50">CA-307</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>L<br>U<br>N<br>C<br>H</h2>
+                </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-301</td>
+
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-303</td>
+            <td colspan="3" align="center" height="50">CA-310</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">CA-301</td>
+
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"> </td>
+            <td colspan="2" align="center" height="50">CA-312</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-303</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+           
+            <td align="center" height="50"> </td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-303</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Saturday</b>
+            </td>
+            <td colspan="3" align="center" height="50">CA-311</td>
+            <td align="center" height="50">CA-307</td>
+            <td colspan="3" align="center" height="50"> </td>
+        </tr>
+    </table>
+        </div>
+    </div>
+
+    <!-- ----------SECTION 5 -->
+    <div class="sec-5">
+        <h3>Let's Get To The <a href="#top"><span class="s1">  Top</span></a></h3>
+    </div>
+
+
+    
+
+    </div>
+</body>
+</html>
